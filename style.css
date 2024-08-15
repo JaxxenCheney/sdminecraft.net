@@ -8,9 +8,8 @@
     src: url('media/OpenSans-VariableFont_wdth\,wght.ttf');
 }
 
-
 body {
-    background-image: url('media/library\ with\ connected\ glass.png');
+    background-image: url('media/libglass.png');
     background-attachment: fixed;
     background-position: top center;
 }
