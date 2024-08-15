@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('libglass-very-lossy.webp');
+    background-image: url('libglass-fixed.webp');
     background-color: black;
     background-attachment: fixed;
     background-position: top center;
