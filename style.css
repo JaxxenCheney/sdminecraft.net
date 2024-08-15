@@ -10,6 +10,7 @@
 
 body {
     background-image: url('media/libglass.png');
+    background-color: black;
     background-attachment: fixed;
     background-position: top center;
 }
