@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('ligblass-maxquality.webp');
+    background-image: url('libglass-very-lossy.webp?v=2024.08.18.0');
     background-color: black;
     background-attachment: fixed;
     background-position: top center;
@@ -53,9 +53,10 @@ body {
 #mainflex {
     display: flex; 
     flex-flow: row nowrap;
-    justify-content: stretch;
+    justify-content: space-between;
     align-items: stretch;
-    gap: 10px;
+    gap: 10px 10px;
+    margin-bottom: 10px;
 }
 
 #sideflex {
@@ -63,10 +64,21 @@ body {
     text-align: center;
     display: flex;
     flex-flow: column nowrap;
-    gap: 10px; 
-    justify-content: space-around; 
+    gap: 10px 0px; 
+    justify-content: space-between;
     align-items: stretch; 
     align-content: stretch;
+}
+
+.thanksbox {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px 20px;
+    justify-content: space-around;
+}
+
+.thanks { 
+    text-align: center;
 }
 
 .block { 
@@ -74,7 +86,6 @@ body {
     border: 2px solid #002554;
     border-radius: 0px;
     padding: 5px;
-    margin:  0px;
 }
 
 p {
